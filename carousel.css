@@ -1,0 +1,112 @@
+.carousel-multi-item {
+	margin-bottom: 5rem
+}
+
+.carousel-multi-item .carousel-inner .carousel-item.active,
+.carousel-multi-item .carousel-item-next,
+.carousel-multi-item .carousel-item-prev {
+	display: block
+}
+
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-next,
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-prev,
+.carousel-multi-item .carousel-inner.v-2 .carousel-item.active {
+	display: flex
+}
+
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-next,
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-right.active {
+	transform: translateX(25%)
+}
+
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-left.active,
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-prev {
+	transform: translateX(-25%)
+}
+
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-left,
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-right {
+	transform: translateX(0)
+}
+
+.carousel-multi-item .controls-top {
+	margin-bottom: 1.88rem;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+.carousel-multi-item .controls-top .btn-floating {
+	position: absolute;
+	/* background: #4285f4 */
+	color: #969696;
+	font-size: 40px;
+	z-index: 99;
+}
+
+.carousel-multi-item .controls-top .btn-floating-left {
+	left: -40px;
+}
+
+.carousel-multi-item .controls-top .btn-floating-right {
+	right: -40px;
+}
+
+.carousel-multi-item .carousel-indicators {
+	margin-bottom: -2em
+}
+
+.carousel-multi-item .card-cascade.narrower {
+	margin-top: 1.25rem;
+	margin-bottom: .3rem
+}
+
+@media (min-width:768px) {
+	.carousel-multi-item .col-md-4 {
+		float: left;
+		width: 33.333325%;
+		max-width: 100%
+	}
+
+	.carousel-multi-item .col-md-3 {
+		float: left;
+		width: 25%;
+		max-width: 100%
+	}
+}
+
+@media only screen and (max-width:992px) {
+	.carousel-multi-item .carousel-indicators li {
+		margin-bottom: -1.88rem
+	}
+}
+
+.carousel-thumbnails .carousel-indicators {
+	white-space: nowrap;
+	overflow-x: auto;
+	position: static;
+	left: initial;
+	width: initial;
+	margin-left: initial;
+	margin-right: initial
+}
+
+.carousel-thumbnails .carousel-indicators>li {
+	width: initial;
+	height: initial;
+	text-indent: initial
+}
+
+.carousel-thumbnails .carousel-indicators>li .active img {
+	opacity: 1
+}
+
+.wrapper-carousel-fix .carousel-fade .active.carousel-item-left,
+.wrapper-carousel-fix .carousel-fade .active.carousel-item-right {
+	transition: transform .6s ease;
+	transition-property: opacity
+}
+
+.carousel-indicators li {
+	background-color: #000000;
+}
