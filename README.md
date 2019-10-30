@@ -22,8 +22,8 @@ This HTML Script uses:
 
 ## Thanks To
 
-* **[Francesco Sganga](http://www.francescosganga.it)** - *Initial work*
-* **[Gianluca Iacovone](http://www.webgraphicdesign.it/)** - *Some contributes*
+* **[Francesco Sganga](https://github.com/francescosganga/)** - *Initial work*
+* **[Gianluca Iacovone](https://github.com/gianlucaiacovone/)** - *Some contributes*
 * **Fontawesome**
 * **Bootstrap**
 * **jQuery**
