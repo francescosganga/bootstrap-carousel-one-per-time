@@ -23,6 +23,7 @@ This HTML Script uses:
 ## Thanks To
 
 * **[Francesco Sganga](http://www.francescosganga.it)** - *Initial work*
+* **[Gianluca Iacovone](http://www.webgraphicdesign.it/)** - *Some contributes*
 * **Fontawesome**
 * **Bootstrap**
 * **jQuery**
